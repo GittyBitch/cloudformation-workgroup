@@ -6,7 +6,7 @@
 #python3 Script ausführen
 
 #url zum download 
-URL="https://testzh11.s3.eu-central-1.amazonaws.com/LPI-Learning-Material-010-160-de+(1).pdf"
+URL="https://testzh11.s3.eu-central-1.amazonaws.com/LPI-Learning-Material.pdf"
 ARCHIV=starchaser.zip
 
 # haupt datei
