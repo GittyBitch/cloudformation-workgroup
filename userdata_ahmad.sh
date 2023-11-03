@@ -17,5 +17,5 @@ unzip main.zip
 # Install any Python dependencies required by your code (if applicable)
 # pip3 install -r $CODE_DIR/requirements.txt
 
-# Start a simple Python web server (replace this with your specific code execution)
-python3 -m http.server 80 --directory $CODE_DIR
+# Run your main.py (replace with your specific Python code execution command)
+python3 $CODE_DIR/main.py
