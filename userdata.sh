@@ -6,24 +6,26 @@
 #python3 Script ausführen
 
 #url zum download 
-url = http
+URL="https://testzh11.s3.eu-central-1.amazonaws.com/LPI-Learning-Material-010-160-de+(1).pdf"
+ARCHIV=starchaser.zip
 
 # haupt datei
-startdatei = main.py
+startdatei=main.py
 
 # alle updates instalieren
-yum update -y
+#yum update -y
 
 #python3 installieren 
-yum install -y python3
+#yum install -y python3
 
 #bucket connecten
-wget $bucket
+#wget $bucket
 
 #starchaser runterladen
-wget $url
-
+wget $URL 
+exit 
 #datei entpacken
+unzip $archiv
 pip install -r requirements.txt
 
 #script mit python ausführen
